@@ -2,8 +2,8 @@ import React from 'react'
 
 const StartupTwo = () => {
   return (
-    <div className='w-full md:w-[85%] lg:w-[60%] mx-auto'>
-        <h1 className='mt-[40px] md:mt-16 text-5xl md:text-[58px] lg:text-[72px] text-center w-full m-auto leading-none font-bold'>Let’s make design
+    <div className='w-full mx-auto px-[35px] md:px-20 lg:px-28 py-10 md:py-16 lg:py-10 text-white h-screen bg-[#2F1893]'>
+        <h1 className='mt-[20px] md:mt-16 text-5xl md:text-[50px] lg:text-[60px] text-center w-full m-auto leading-none font-bold'>Let’s make design
         fast and easy</h1>
         <p className='text-white lg:w-[40%] w-[90%] text-center mt-10 m-auto'>
         The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.

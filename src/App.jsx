@@ -1,19 +1,24 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import StartupTwo from "./components/StartupTwo";
+import StartupThree from "./components/StartupThree";
 
 const App = () => {
   return (
-    <div
-      className="px-[35px] md:px-20 lg:px-28 py-10 md:py-16 lg:py-20 h-screen text-white font-sans"
+    <BrowserRouter
+      className="font-sans"
       style={{
         fontFamily: ["DM Sans", "sans-serif"],
         backgroundColor: "#2F1893",
       }}
     >
       <Navbar />
-      <StartupTwo/>
-    </div>
+      <Routes>
+        <Route path="/" element={<StartupTwo />} />
+        <Route path="/startupthree" element={<StartupThree/>} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
