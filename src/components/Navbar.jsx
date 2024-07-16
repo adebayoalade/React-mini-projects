@@ -13,8 +13,8 @@ const Navbar = () => {
             <div className='flex items-center justify-between text-white font-bold text-[24px]'>Startup 3</div>
             <ul className={`absolute lg:static lg:bg-transparent lg:h-auto lg:p-0 lg:flex-row lg:text-[#808080] h-[50vh] top-[60px] right-0 p-12 flex flex-col bg-[#1E0E62] lg:flex items-center justify-center gap-5 text-[#808080] ${IsMenuOpen? "flex":"hidden"}`}>
                 <li><a href="/">Home</a></li>
-                <li><a href="/">Subscribe</a></li>
-                <li><a href="/">Features</a></li>
+                <li><a href="/subscribe">Subscribe</a></li>
+                <li><a href="/features">Features</a></li>
                 <li><a href="/startupthree">Start3</a></li>
                 <Button
                 btntext="Sign up"
